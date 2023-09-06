@@ -18,4 +18,5 @@ class CharacterRepositoryImpl: CharacterRepository {
             RetrofitInstance.searchCharacterApi.getCgaractersById(id)
         )
     }
+
 }
